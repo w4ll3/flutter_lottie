@@ -46,6 +46,7 @@ class _LottieViewState extends State<LottieView> {
 
       return AndroidView(
         viewType: 'convictiontech/flutter_lottie',
+        hitTestBehavior: PlatformViewHitTestBehavior.transparent,
         creationParams: <String,dynamic> {
           "url": widget.url,
           "filePath" : widget.filePath,
