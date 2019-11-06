@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'lottie_controller.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/rendering.dart';
 
 typedef void LottieViewCreatedCallback(LottieController controller);
 
